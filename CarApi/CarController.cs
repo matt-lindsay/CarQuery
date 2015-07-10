@@ -20,8 +20,8 @@ namespace CarApi
         {
             return new List<Car>
             {
-                new Car { ID = 0, Make = "Ford", Model = "Kuga" }
-                new Car { ID = 1, Make = "BMW", Model = "325i" }
+                new Car { ID = 0, Make = "Ford", Model = "Kuga" },
+                new Car { ID = 1, Make = "BMW", Model = "325i" },
                 new Car { ID = 2, Make = "Audi", Model = "A6" }
             };
         }
