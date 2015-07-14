@@ -13,7 +13,21 @@ namespace CarApi
         public string Make { get; set; }
         public string Model { get; set; }
     }
- 
+
+    /*
+     * RESTful APIs
+     * REST - REpresentational State Transfer
+     * 
+     * Client server communications that are stateless.
+     * Resouce based vs. traditional procedure call approach.
+     * Uses HTTP methods.
+     * 
+     * HATEOAS - HypermediaEngineOfApplicationState
+     * Return information as to what can be done with high level datasets.
+     * 
+     * http://www.odata.org/ - Open Data standard end points.
+     */
+
     public class CarController : ApiController
     {
         public IEnumerable<Car> Get()
